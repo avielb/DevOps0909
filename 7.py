@@ -10,4 +10,4 @@ def sqrt(my_number):
         return -1
 
 
-b = 8
+c = 4
