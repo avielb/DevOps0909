@@ -9,7 +9,3 @@ def sqrt(my_number):
     else:
         return -1
 
-
-age = int(input("enter your age: "))
-if 1 < int(age) < 18:
-    print("you are young")
