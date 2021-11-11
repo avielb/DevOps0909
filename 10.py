@@ -1,7 +1,7 @@
 from datetime import datetime
 from time import sleep
 import requests
-print(datetime.utcnow())
+print(datetime.utcnow()) # print time
 for i in range(5):
     response = requests.get("https://github.com")
     if response.status_code == 200:
